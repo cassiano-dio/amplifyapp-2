@@ -4,20 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
+      <img src={"https://render.fineartamerica.com/images/rendered/default/flat/round-beach-towel/images/artworkimages/medium/3/1-ronaldinho-siva-nipa.jpg?&targetx=-2&targety=-33&imagewidth=788&imageheight=957&modelwidth=788&modelheight=788&backgroundcolor=035496&orientation=0"} className="App-logo" alt="Bruxaria" />
+      </body>
     </div>
   );
 }
